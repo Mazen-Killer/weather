@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/api.css">
+</head>
+
+<body>
+
+    <nav style="background-color:#02021e87;" class="navbar navbar-expand-lg   py-5">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i style="color:#009ad8 ; font-size: 40px;"
+                    class="fa-solid fa-cloud-moon"></i><span class="fs-3 text-white"> Weather</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                    <li class="nav-item  px-4">
+                        <a class="nav-link fs-5  text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link fs-5 text-white " aria-current="page" href="#">news</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link fs-5 text-white " aria-current="page" href="#">live cameras</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link fs-5 text-white " aria-current="page" href="#">photos</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link fs-5 text-white " aria-current="page" href="#">contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="content">
+        <div class="layer py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-10  d-flex justify-content-center">
+                        <input id="searchInput" type="text" class="form-control mx-4 w-75 text-white"
+                            style="background-color:#02021e87 !important;" placeholder="enter your location.. "><button
+                            class="bttn ">Find</button>
+                    </div>
+
+                </div>
+                <div class="row my-4 align-items-center ">
+                    <div class="col-md-4">
+                        <div class="card bg-opacity-75 bg-dark rounded-2 pb-2">
+                            <div class="dayName  rounded-2 p-2 text-white d-flex justify-content-between">
+                                <h6 id="day1" class="text-dark">
+                                    saterday
+                                </h6>
+                                <h6 id="mmonth" class="text-dark">
+                                    25october
+                                </h6>
+
+
+                            </div>
+                            <div class="all text-white">
+                                <div id="city" class="city my-5 text-white fs-4 mx-5">
+                                    cairo
+                                </div>
+
+                                <div class="digree text-white px-2 ">
+                                    <h2 id="tmp" class=" ms-5 w-auto fs-1 fw-bold"> 25.C </h2>
+                                    <div  class="icon px-3 py-2  text-center fs-4">
+                                        <img id="icon" class="" src="" alt="">
+
+                                    </div>
+                                </div>
+
+                                <div id="discreption" class=" text-info m-4">
+                                    cloudy
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-opacity-75  bg-dark rounded-2 text-white text-center pb-2">
+                            <div style="background-color: #dd992cce ;" id="day2"
+                                class="day2 text-dark mb-3 rounded-1  pb-2">
+                                sunday
+                            </div>
+                            <span class="22 py-4 ">
+                                <img  id="icon2" src="" alt="">
+                            </span>
+                            <h2 id="tmp1" class="ms-4 w-auto fs-1 fw-bold"> 25.C </h2>
+                            <h5 id="tmpLow" class="py-4">
+                                15
+                            </h5>
+                            <div id="discreption2" class=" text-info p-3">
+                                cloudy
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-opacity-75 bg-dark rounded-2 text-white text-center pb-2">
+                            <div id="day3" style="background-color: #dd992cce ;" class="nameday3 text-dark  mb-3 rounded-1  pb-2">
+                                sunday
+                            </div>
+                            <div class="icon py-4">
+                                <img id="icon3" class="" src="" alt="">
+
+                            </div>
+                            <h2 id="tmp2" class="ms-4 pb-3 w-auto fs-1 fw-bold"> 25.C </h2>
+                            <h5 id="tmpLow2" class="py-3">
+                                15
+                            </h5>
+                            <div id="discreption3" class=" text-info p-3">
+                                cloudy
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/api.js"></script>
+</body>
+
+</html>

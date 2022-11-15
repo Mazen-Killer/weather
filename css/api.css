@@ -17,10 +17,14 @@ border-radius: 22px;
 
 
 }
+.navbar-toggler-icon{
+    
+    color:#009ad8;
+}
 
-.navbar-toggler {
-    color:#009ad8 ;
-    border:3px solid #009ad8;
+.navbar-toggler:focus {
+  
+    border:0.25rem solid #009ad8;
 }
 
 

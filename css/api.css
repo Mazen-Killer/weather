@@ -17,6 +17,13 @@ border-radius: 22px;
 
 
 }
+
+.navbar-toggler {
+    color:#009ad8 ;
+    border:3px solid #009ad8;
+}
+
+
 .nav-link{
     transition: all 1s;
 
